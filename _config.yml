@@ -11,10 +11,11 @@ lang: en
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Manila
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# jekyll-seo-tag settings › https://github.com/jneen/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Liv Michael Bermudo # the main title
+
 tagline: Electronics Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
@@ -75,12 +76,13 @@ pageviews:
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
-# otherwise, there will be a toggle to switch to dark mode or light mode in the sidebar.
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
 #
 # Available options:
 #
-#     light — the default light color scheme
-#     dark — the default dark color scheme
+#     light — Use the light color scheme
+#     dark — Use the dark color scheme
 #
 theme_mode: # [light | dark]
 
@@ -94,27 +96,12 @@ cdn:
 # the avatar on sidebar, support local or CORS resources
 avatar:
 
-# the avatar on sidebar, support local or CORS resources
-avatar:
-
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# otherwise, there will be a toggle to switch to dark mode or light mode in the sidebar.
-#
-# Available options:
-#
-#     light — the default light color scheme
-#     dark — the default dark color scheme
-#
-theme_mode: # [light | dark]
 
 actions:
   # Display "Edit this post" action on each post page to encourage contributions.
@@ -162,7 +149,7 @@ pwa:
     enabled: true # PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*`
+      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
 
@@ -194,8 +181,8 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true # Enable comments for posts.
-      toc: true # Enable TOC column on posts.
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column on posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
