@@ -7,13 +7,13 @@ order: 1
 
 - 👨‍💻 Senior Artificial Intelligence Developer (Data Analytics and Machine Learning)
 - 🏢 OpenText
-- 🏫 Mapúa University
+- 🏫 Mapúa University · Pamantasan ng Cabuyao
 - 📍 Santa Rosa, Central Luzon, Philippines
 - 💼 [LinkedIn](https://www.linkedin.com/in/liv-michael-bermudo-4693b01b0/) · [GitHub](https://github.com/michaeluzumaki63)
 
 #### Short bio
 
-I build and own software where the outcome has to be clear before the work is called done. My day job is as a Senior Artificial Intelligence Developer at OpenText, with a focus on data analytics and machine learning. I trained as an electronics engineer: the Professional Regulation Commission registered me as an Electronics Engineer and an Electronics Technician in November 2018.
+I build and own software where the outcome has to be clear before the work is called done. My day job is as a Senior Artificial Intelligence Developer at OpenText, with a focus on data analytics and machine learning. I trained as an electronics engineer and am a Registered Electronics Engineer with the Philippine Professional Regulation Commission (Electronics Engineer and Electronics Technician, November 2018).
 
 This site is a personal engineering profile — how I frame goals, read signals, and hold ownership — not a product sales page.
 
@@ -31,14 +31,18 @@ Feedback I find useful is goal-oriented, specific, and actionable. That is the v
 
 #### Experience
 
-- **OpenText** — Senior Artificial Intelligence Developer (Data Analytics and Machine Learning)
+Roles and titles below match what is published on [LinkedIn](https://www.linkedin.com/in/liv-michael-bermudo-4693b01b0/) (public index):
 
-Roles and titles above match what is published on [LinkedIn](https://www.linkedin.com/in/liv-michael-bermudo-4693b01b0/).
+- **OpenText** — Senior Artificial Intelligence Developer (Data Analytics and Machine Learning)
+- **Inuovia Creative Designs** — Engineer · June 2019–Present · Calamba, Calabarzon, Philippines
+- **Amkor Technology Philippines** — Reliability Engineer · December 2018–February 2024 · Biñan, Calabarzon, Philippines
+- **Continental** — Test Engineer · May 2021–June 2021 · Calamba, Calabarzon, Philippines
 
 #### Education & credentials
 
-- **Mapúa University**
-- **Professional Regulation Commission** — Electronics Engineer and Electronics Technician (registered November 2018)
+- **Mapúa University** — Master's degree, Electronics Engineering (Control Systems) · 2022–Present
+- **Pamantasan ng Cabuyao** — Bachelor of Science in Electronics Engineering · 2013–2018
+- **Professional Regulation Commission** — Registered Electronics Engineer; Electronics Engineer and Electronics Technician (November 2018)
 
 #### Notes
 
