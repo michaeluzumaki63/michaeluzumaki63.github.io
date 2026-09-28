@@ -11,7 +11,7 @@ lang: en
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Manila
 
-# jekyll-seo-tag settings › https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/usage.md
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Liv Michael Bermudo # the main title
@@ -57,7 +57,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: # now only supports 'goatcounter'
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -88,7 +88,7 @@ theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+# will be added to all media resources (site avatar, posts' images, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
 cdn:
@@ -110,20 +110,20 @@ actions:
     url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
     # Use dynamic or static URL for the edit link.
     # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
-    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
+    # Set to true when the URL should remain unchanged, which means each post will share the same edit link.
     static_url: false # [ true | false ]
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
-  # The provider options are as follows.
+  # The provider options are as follows:
   disqus:
     shortname: # fill in the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+  # Giscus options (see `site.collections`).
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
@@ -153,7 +153,7 @@ pwa:
 
 paginate: 10
 
-# The base URL of the site
+# The base URL of your site
 baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
@@ -161,7 +161,7 @@ baseurl: ""
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-configuration
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
@@ -181,7 +181,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true # Enable comments on posts.
+      comments: true # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
