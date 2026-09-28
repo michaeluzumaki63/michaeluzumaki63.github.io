@@ -2,7 +2,7 @@
 
 GitHub Pages profile built with the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme.
 
-Engineering-playbook oriented: goals, signals, ownership, staging gates — not a product sales splash.
+Personal engineering profile (Electronics Engineer).
 
 Live: https://michaeluzumaki63.github.io
 
