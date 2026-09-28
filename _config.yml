@@ -9,17 +9,17 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone: Etc/UTC
+timezone: Asia/Manila
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Portfolio # the main title
+title: Liv Michael Bermudo # the main title
 
 tagline: A website that provides a service # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  I develop a website that provides software as a service.
+  Liv Michael Bermudo. I develop a website that provides software as a service.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -33,10 +33,11 @@ twitter:
 
 social:
   # Shown as the default author of the posts and the copyright owner in the footer.
-  name: michaeluzumaki63
+  name: Liv Michael Bermudo
   email:
   fediverse_handle:
   links:
+    - https://www.linkedin.com/in/liv-michael-bermudo-4693b01b0/
     - https://github.com/michaeluzumaki63
 
 # Site Verification Settings

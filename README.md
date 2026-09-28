@@ -2,7 +2,7 @@
 
 A GitHub Pages site built with the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme.
 
-It says that I develop a website that provides software as a service.
+Liv Michael Bermudo’s site about a website that provides software as a service.
 
 Live: https://michaeluzumaki63.github.io
 

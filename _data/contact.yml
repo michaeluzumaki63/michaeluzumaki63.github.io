@@ -1,5 +1,9 @@
 # The contact options shown on the sidebar.
 
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/liv-michael-bermudo-4693b01b0/"
+
 - type: github
   icon: "fab fa-github"
 
