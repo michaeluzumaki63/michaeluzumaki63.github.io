@@ -57,7 +57,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # now only supports 'goatcounter'
+    id: # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -88,9 +88,9 @@ theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, posts' images, audio and video files) paths starting with '/'
+# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
-# e.g. 'https://cdn.com'
+# e.g. 'cdn.com'
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
@@ -110,7 +110,7 @@ actions:
     url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
     # Use dynamic or static URL for the edit link.
     # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
-    # Set to true when the URL should remain unchanged, which means each post will share the same edit link.
+    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
     static_url: false # [ true | false ]
 
 comments:
@@ -123,7 +123,7 @@ comments:
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options (see `site.collections`).
+  # Giscus options # [giscus]
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
