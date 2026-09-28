@@ -221,7 +221,7 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: []  # profile-first site
+  enabled: []  # profile-first site; no category/tag archive pages
   layouts:
     category: category
     tag: tag
