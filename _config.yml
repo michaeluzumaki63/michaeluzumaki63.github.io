@@ -57,7 +57,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id:
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -90,7 +90,7 @@ theme_mode: # [light | dark]
 # Notice that once it is assigned, the CDN url
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
-# e.g. 'cdn.com'
+# e.g. 'https://cdn.com'
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
@@ -123,7 +123,7 @@ comments:
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options # [giscus]
+  # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
