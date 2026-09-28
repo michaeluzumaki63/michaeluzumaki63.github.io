@@ -1,21 +1,21 @@
 ---
-title: From the door to the account
+title: Staging before "done"
 date: 2026-09-22 16:00:00 +0000
-categories: [Work]
-tags: [website, account]
-description: How a person arrives, signs in, and finds their own work.
+categories: [Playbook]
+tags: [staging, gates, quality]
+description: A staging gate is how quality gets a vote before production does.
 ---
 
-A service website has a short memory test. A person should be able to leave and come back as themselves.
+Calling something done because the branch merged is how quiet failures get a head start.
 
-## Arrival
+## Why staging
 
-The first screen has one job: show that there is a service, and show the way in. I keep that screen quiet. It does not need a tour of every corner.
+Staging is where the same path a user will take gets a real run — without betting production on a guess. I treat it as a gate, not a courtesy.
 
-## The account
+## What a gate is
 
-Signing in is the line between the public site and the person's own work. After that line, what they see is theirs. I treat that boundary as part of the product, not as a lock bolted on at the end.
+A gate is a yes/no that is owned. Build green. Smoke path walked. The person who owns the tip says the signal matched the goal. Until then, "done" stays in quotes.
 
-## Coming back
+## Quality over theater
 
-The useful test is the second visit. The same person, the same account, the same work waiting. If that holds, the website is doing what a service is for.
+A polished announcement with a broken path is theater. A boring staging pass with a clear owner is quality. I would rather ship one day later with a gate than call it finished while nobody checked.

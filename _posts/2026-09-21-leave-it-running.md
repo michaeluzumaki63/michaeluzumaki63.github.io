@@ -1,24 +1,21 @@
 ---
-title: Leave it running
+title: Own it, then learn from it
 date: 2026-09-21 16:00:00 +0000
-categories: [Work]
-tags: [website, service]
-description: A service is a website that answers when nobody is at the keyboard.
+categories: [Playbook]
+tags: [ownership, feedback, learning]
+description: Clear ownership and blameless learning beat quiet blame after a miss.
 ---
 
-A folder on a laptop is not a service. The website has to answer when I am not sitting in front of it.
+Someone has to own the tip. When ownership is fuzzy, feedback gets personal and fixes get slow.
 
-## A small promise
+## Clear ownership
 
-I keep a health check on the service. It does not explain the product. It only says the site is up.
+One owner for the change. Hand off in writing when it moves. The next human should know what "ready" means without decoding a thread.
 
-```python
-def health():
-    return {"status": "ok"}
-```
+## Blameless learning
 
-## What "up" means
+When something misses, write what happened, what we expected, and what changes next. Specific and actionable. Hunt the process gap, not a person to punish.
 
-The page loads. The account still knows who is asking. The work they left is still there. Those three are the bar I use before I call the website done for the day.
+## Feedback that helps
 
-The rest of the craft is making that bar boring: a deploy that finishes, a page that still reads well on a phone, and a failure that is obvious instead of quiet.
+Goal-oriented. Specific. Actionable. That bar works for review comments and for notes I leave myself after a miss. Soft praise without a next step does not move the work; neither does blame without a fix.

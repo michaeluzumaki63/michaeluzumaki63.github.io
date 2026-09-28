@@ -1,24 +1,22 @@
 ---
-title: A SaaS website
+title: Name the outcome first
 date: 2026-09-23 16:00:00 +0000
-categories: [Work]
-tags: [website, service]
-description: I develop one website that provides software as a service.
+categories: [Playbook]
+tags: [goals, signals, measures]
+description: Work is finished when the outcome is true — not when the ticket is closed.
 pin: true
 ---
 
-I develop one website that provides software as a service. Someone arrives, signs in, and uses it. The offering is the website itself, sold as a service.
+I start with a sentence anyone on the tip can repeat: what should be true when this is finished?
 
-## What is on it
+## Goals
 
-Three things, and only these, are worth describing here.
+A goal is the outcome in plain words. "Ship the page" is not enough. "A visitor can open About and see how I work" is closer.
 
-1. A public face, so a person can tell there is a service.
-2. An account, so the service belongs to the person using it.
-3. A place they come back to.
+## Signals
 
-## What I spend time on
+Signals are what we look at to know the goal landed. A live URL, a staging smoke, a measure that moved the way we said it would. If we cannot name a signal, we do not yet know how we will tell success from hope.
 
-The path from the front door to the signed-in product. The boundary between what is public and what is theirs. And the unglamorous part: leaving the website running after the laptop is closed.
+## Measures
 
-That is the whole brief for this site. Posts after this one stay inside it.
+When a number helps, write it down early. When a gate helps more (staging green, review approved), use the gate. The point is the same: finish means the outcome holds under the check we agreed, not that the calendar day ended.
