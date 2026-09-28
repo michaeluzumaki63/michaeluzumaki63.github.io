@@ -57,7 +57,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id:
+    id: # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -221,7 +221,7 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: []  # profile-first site; no category/tag archive pages
+  enabled: []  # profile-first site
   layouts:
     category: category
     tag: tag
